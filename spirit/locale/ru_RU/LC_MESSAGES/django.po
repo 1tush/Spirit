@@ -1,0 +1,1707 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-30 12:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apps/admin/forms.py:12
+msgid "site name"
+msgstr ""
+
+#: apps/admin/forms.py:13
+msgid "site description"
+msgstr ""
+
+#: apps/admin/forms.py:14
+msgid "footer snippet"
+msgstr ""
+
+#: apps/admin/forms.py:16
+msgid "This gets rendered just before the footer in your template."
+msgstr ""
+
+#: apps/admin/forms.py:17
+msgid "comments per page"
+msgstr ""
+
+#: apps/admin/forms.py:18
+msgid "topics per page"
+msgstr ""
+
+#: apps/admin/views.py:31
+msgid "Settings updated!"
+msgstr ""
+
+#: apps/category/admin/forms.py:33
+msgid ""
+"The category you are updating can not have a parent since it has childrens"
+msgstr ""
+
+#: apps/category/admin/views.py:51
+msgid "The category has been updated!"
+msgstr ""
+
+#: apps/category/models.py:18
+msgid "category parent"
+msgstr ""
+
+#: apps/category/models.py:20 apps/topic/models.py:21
+msgid "title"
+msgstr ""
+
+#: apps/category/models.py:22
+msgid "description"
+msgstr ""
+
+#: apps/category/models.py:23 apps/topic/models.py:28
+msgid "closed"
+msgstr ""
+
+#: apps/category/models.py:24
+msgid "removed"
+msgstr ""
+
+#: apps/category/models.py:25
+msgid "private"
+msgstr ""
+
+#: apps/category/models.py:33 apps/topic/models.py:19
+msgid "category"
+msgstr ""
+
+#: apps/category/models.py:34
+msgid "categories"
+msgstr ""
+
+#: apps/comment/bookmark/models.py:17 apps/comment/models.py:31
+#: apps/topic/models.py:18 apps/topic/notification/models.py:25
+#: apps/topic/unread/models.py:14 apps/user/models.py:136
+msgid "user"
+msgstr ""
+
+#: apps/comment/bookmark/models.py:24
+msgid "comment bookmark"
+msgstr ""
+
+#: apps/comment/bookmark/models.py:25
+msgid "comments bookmarks"
+msgstr ""
+
+#: apps/comment/flag/admin/views.py:26
+msgid "The flag has been moderated!"
+msgstr ""
+
+#: apps/comment/flag/forms.py:32
+msgid "This flag already exists"
+msgstr ""
+
+#: apps/comment/flag/models.py:12
+msgid "Spam"
+msgstr ""
+
+#: apps/comment/flag/models.py:13
+msgid "Other"
+msgstr ""
+
+#: apps/comment/flag/models.py:28
+msgid "comment flag"
+msgstr ""
+
+#: apps/comment/flag/models.py:29
+msgid "comments flags"
+msgstr ""
+
+#: apps/comment/flag/models.py:46
+msgid "reason"
+msgstr ""
+
+#: apps/comment/flag/models.py:47
+msgid "body"
+msgstr ""
+
+#: apps/comment/flag/models.py:52
+msgid "flag"
+msgstr ""
+
+#: apps/comment/flag/models.py:53
+msgid "flags"
+msgstr ""
+
+#: apps/comment/forms.py:30
+msgid "Write comment..."
+msgstr ""
+
+#: apps/comment/forms.py:83
+#, python-format
+msgid "Unsupported file format. Supported formats are %s."
+msgstr ""
+
+#: apps/comment/history/models.py:14
+msgid "original comment"
+msgstr ""
+
+#: apps/comment/history/models.py:16 apps/comment/models.py:35
+msgid "comment html"
+msgstr ""
+
+#: apps/comment/history/models.py:21
+msgid "comment history"
+msgstr ""
+
+#: apps/comment/history/models.py:22
+msgid "comments history"
+msgstr ""
+
+#: apps/comment/like/forms.py:30
+msgid "This like already exists"
+msgstr ""
+
+#: apps/comment/like/models.py:23
+#: templates/spirit/comment/_render_list.html:60
+#: templates/spirit/comment/_render_list.html:138
+msgid "like"
+msgstr ""
+
+#: apps/comment/like/models.py:24 templates/spirit/user/profile_likes.html:5
+msgid "likes"
+msgstr ""
+
+#: apps/comment/models.py:19 apps/comment/models.py:34
+#: apps/comment/models.py:49
+msgid "comment"
+msgstr ""
+
+#: apps/comment/models.py:20
+msgid "topic moved"
+msgstr ""
+
+#: apps/comment/models.py:21
+msgid "topic closed"
+msgstr ""
+
+#: apps/comment/models.py:22
+msgid "topic unclosed"
+msgstr ""
+
+#: apps/comment/models.py:23
+msgid "topic pinned"
+msgstr ""
+
+#: apps/comment/models.py:24
+msgid "topic unpinned"
+msgstr ""
+
+#: apps/comment/models.py:36
+msgid "action"
+msgstr ""
+
+#: apps/comment/models.py:42
+msgid "modified count"
+msgstr ""
+
+#: apps/comment/models.py:43
+msgid "likes count"
+msgstr ""
+
+#: apps/comment/models.py:50 templates/spirit/user/profile_comments.html:5
+msgid "comments"
+msgstr ""
+
+#: apps/comment/tags.py:21
+msgid "This topic has been moved"
+msgstr ""
+
+#: apps/comment/tags.py:23
+msgid "This topic has been closed"
+msgstr ""
+
+#: apps/comment/tags.py:25
+msgid "This topic has been unclosed"
+msgstr ""
+
+#: apps/comment/tags.py:27
+msgid "This topic has been pinned"
+msgstr ""
+
+#: apps/comment/tags.py:29
+msgid "This topic has been unpinned"
+msgstr ""
+
+#: apps/comment/tags.py:31
+msgid "Unknown topic moderation action"
+msgstr ""
+
+#: apps/search/forms.py:21
+#, python-format
+msgid "Your search must contain at least %(length)s characters."
+msgstr ""
+
+#: apps/search/forms.py:43
+msgid "Filter by"
+msgstr ""
+
+#: apps/topic/favorite/forms.py:30
+msgid "This favorite already exists"
+msgstr ""
+
+#: apps/topic/favorite/models.py:22
+msgid "favorite"
+msgstr ""
+
+#: apps/topic/favorite/models.py:23
+msgid "favorites"
+msgstr ""
+
+#: apps/topic/forms.py:26
+msgid "Category"
+msgstr ""
+
+#: apps/topic/forms.py:27
+msgid "Chose a category"
+msgstr ""
+
+#: apps/topic/models.py:23
+msgid "date"
+msgstr ""
+
+#: apps/topic/models.py:24
+msgid "last active"
+msgstr ""
+
+#: apps/topic/models.py:26
+msgid "pinned"
+msgstr ""
+
+#: apps/topic/models.py:27
+msgid "globally pinned"
+msgstr ""
+
+#: apps/topic/models.py:31
+msgid "views count"
+msgstr ""
+
+#: apps/topic/models.py:32 apps/user/models.py:36 apps/user/models.py:72
+msgid "comment count"
+msgstr ""
+
+#: apps/topic/models.py:38 apps/topic/poll/models.py:14
+msgid "topic"
+msgstr ""
+
+#: apps/topic/models.py:39 templates/spirit/user/profile_topics.html:5
+msgid "topics"
+msgstr ""
+
+#: apps/topic/notification/forms.py:35
+msgid "This notification already exists"
+msgstr ""
+
+#: apps/topic/notification/models.py:16
+msgid "Undefined"
+msgstr ""
+
+#: apps/topic/notification/models.py:17
+msgid "Mention"
+msgstr ""
+
+#: apps/topic/notification/models.py:18
+msgid "Comment"
+msgstr ""
+
+#: apps/topic/notification/models.py:39
+msgid "topic notification"
+msgstr ""
+
+#: apps/topic/notification/models.py:40
+msgid "topics notification"
+msgstr ""
+
+#: apps/topic/poll/forms.py:28
+msgid "Choice's limit must be greater than zero"
+msgstr ""
+
+#: apps/topic/poll/forms.py:90
+msgid "There must be 2 or more choices"
+msgstr ""
+
+#: apps/topic/poll/forms.py:120 apps/topic/poll/forms.py:125
+msgid "Poll choices"
+msgstr ""
+
+#: apps/topic/poll/forms.py:146
+#, python-format
+msgid "Too many selected choices. Limit is %s"
+msgstr ""
+
+#: apps/topic/poll/forms.py:155
+msgid "This poll is closed"
+msgstr ""
+
+#: apps/topic/poll/models.py:17
+msgid "choice limit"
+msgstr ""
+
+#: apps/topic/poll/models.py:21
+msgid "topic poll"
+msgstr ""
+
+#: apps/topic/poll/models.py:22
+msgid "topics polls"
+msgstr ""
+
+#: apps/topic/poll/models.py:39
+msgid "poll"
+msgstr ""
+
+#: apps/topic/poll/models.py:41
+msgid "choice description"
+msgstr ""
+
+#: apps/topic/poll/models.py:42
+msgid "vote count"
+msgstr ""
+
+#: apps/topic/poll/models.py:46 apps/topic/poll/models.py:57
+msgid "poll choice"
+msgstr ""
+
+#: apps/topic/poll/models.py:47
+msgid "poll choices"
+msgstr ""
+
+#: apps/topic/poll/models.py:58
+msgid "voter"
+msgstr ""
+
+#: apps/topic/poll/models.py:64
+msgid "poll vote"
+msgstr ""
+
+#: apps/topic/poll/models.py:65
+msgid "poll votes"
+msgstr ""
+
+#: apps/topic/private/forms.py:42
+msgid "user1, user2, ..."
+msgstr ""
+
+#: apps/topic/private/forms.py:69 apps/user/models.py:89
+msgid "username"
+msgstr ""
+
+#: apps/topic/private/forms.py:70
+msgid "Invite user"
+msgstr ""
+
+#: apps/topic/private/forms.py:88 apps/topic/private/forms.py:119
+#, python-format
+msgid "%(username)s is already a participant"
+msgstr ""
+
+#: apps/topic/private/models.py:26
+msgid "private topic"
+msgstr ""
+
+#: apps/topic/private/models.py:27
+msgid "private topics"
+msgstr ""
+
+#: apps/topic/unread/models.py:23
+msgid "topic unread"
+msgstr ""
+
+#: apps/topic/unread/models.py:24
+msgid "topics unread"
+msgstr ""
+
+#: apps/user/admin/views.py:30
+msgid "This profile has been updated!"
+msgstr ""
+
+#: apps/user/auth/forms.py:18
+msgid "Leave blank"
+msgstr ""
+
+#: apps/user/auth/forms.py:29
+msgid "Do not fill this field."
+msgstr ""
+
+#: apps/user/auth/forms.py:41
+msgid "The username is taken."
+msgstr ""
+
+#: apps/user/auth/forms.py:52
+msgid "Username or Email"
+msgstr ""
+
+#: apps/user/auth/forms.py:57 apps/user/forms.py:41 apps/user/forms.py:46
+#: templates/spirit/user/profile_update.html:12
+msgid "Email"
+msgstr ""
+
+#: apps/user/auth/forms.py:65
+msgid "The provided email does not exists."
+msgstr ""
+
+#: apps/user/auth/forms.py:75 apps/user/auth/forms.py:80
+msgid "This account is verified, try logging-in."
+msgstr ""
+
+#: apps/user/auth/views.py:66
+msgid "We have sent you an email so you can activate your account!"
+msgstr ""
+
+#: apps/user/auth/views.py:90
+msgid "Your account has been activated!"
+msgstr ""
+
+#: apps/user/auth/views.py:109
+#: templates/spirit/user/auth/password_reset_done.html:12
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: apps/user/forms.py:31
+msgid "The email is taken."
+msgstr ""
+
+#: apps/user/forms.py:47 templates/spirit/user/profile_update.html:15
+msgid "Password"
+msgstr ""
+
+#: apps/user/forms.py:57
+msgid "The provided password is incorrect."
+msgstr ""
+
+#: apps/user/forms.py:78
+#, python-format
+msgid "Current time is: %(date)s %(time)s"
+msgstr ""
+
+#: apps/user/models.py:21
+msgid "profile"
+msgstr ""
+
+#: apps/user/models.py:24 apps/user/models.py:60
+msgid "location"
+msgstr ""
+
+#: apps/user/models.py:25 apps/user/models.py:61
+msgid "last seen"
+msgstr ""
+
+#: apps/user/models.py:26 apps/user/models.py:62
+msgid "last ip"
+msgstr ""
+
+#: apps/user/models.py:27 apps/user/models.py:63
+msgid "time zone"
+msgstr ""
+
+#: apps/user/models.py:28 apps/user/models.py:64
+msgid "administrator status"
+msgstr ""
+
+#: apps/user/models.py:29 apps/user/models.py:65
+msgid "moderator status"
+msgstr ""
+
+#: apps/user/models.py:30 apps/user/models.py:66
+msgid "verified"
+msgstr ""
+
+#: apps/user/models.py:31 apps/user/models.py:67
+msgid ""
+"Designates whether the user has verified his account by email or by other "
+"means. Un-select this to let the user activate his account."
+msgstr ""
+
+#: apps/user/models.py:35 apps/user/models.py:71
+msgid "topic count"
+msgstr ""
+
+#: apps/user/models.py:39
+msgid "forum profile"
+msgstr ""
+
+#: apps/user/models.py:40
+msgid "forum profiles"
+msgstr ""
+
+#: apps/user/models.py:90
+msgid ""
+"Required. 30 characters or fewer. Letters, numbers and @/./+/-/_ characters"
+msgstr ""
+
+#: apps/user/models.py:93
+msgid "Enter a valid username."
+msgstr ""
+
+#: apps/user/models.py:96
+msgid "first name"
+msgstr ""
+
+#: apps/user/models.py:97
+msgid "last name"
+msgstr ""
+
+#: apps/user/models.py:98
+msgid "email"
+msgstr ""
+
+#: apps/user/models.py:99
+msgid "staff status"
+msgstr ""
+
+#: apps/user/models.py:100
+msgid "Designates whether the user can log into this admin site."
+msgstr ""
+
+#: apps/user/models.py:102
+msgid "active"
+msgstr ""
+
+#: apps/user/models.py:103
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+
+#: apps/user/models.py:105
+msgid "date joined"
+msgstr ""
+
+#: apps/user/models.py:137
+msgid "users"
+msgstr ""
+
+#: apps/user/utils/email.py:43
+msgid "User activation"
+msgstr ""
+
+#: apps/user/utils/email.py:51
+#: templates/spirit/user/profile_email_change.html:5
+#: templates/spirit/user/profile_email_change.html:9
+msgid "Email change"
+msgstr ""
+
+#: apps/user/utils/email.py:60
+#, python-format
+msgid "New notification: %(topic_name)s"
+msgstr ""
+
+#: apps/user/views.py:35
+msgid "Your profile has been updated!"
+msgstr ""
+
+#: apps/user/views.py:57
+msgid "Your password has been changed!"
+msgstr ""
+
+#: apps/user/views.py:74
+msgid "We have sent you an email so you can confirm the change!"
+msgstr ""
+
+#: apps/user/views.py:96
+msgid "Your email has been changed!"
+msgstr ""
+
+#: apps/user/views.py:99
+msgid "Sorry, we were not able to change your email."
+msgstr ""
+
+#: templates/403.html:10
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: templates/404.html:10
+msgid "what you are looking for is gone..."
+msgstr ""
+
+#: templates/spirit/_base.html:57
+#, python-brace-format
+msgid "{user} has mention you on {topic}"
+msgstr ""
+
+#: templates/spirit/_base.html:58
+#, python-brace-format
+msgid "{user} has commented on {topic}"
+msgstr ""
+
+#: templates/spirit/_base.html:59
+msgid "Show all"
+msgstr ""
+
+#: templates/spirit/_base.html:60
+msgid "No new notifications, yet"
+msgstr ""
+
+#: templates/spirit/_base.html:61
+#: templates/spirit/topic/notification/_render_list.html:17
+msgid "unread"
+msgstr ""
+
+#: templates/spirit/_header.html:20 templates/spirit/user/menu.html:14
+msgid "Profile"
+msgstr ""
+
+#: templates/spirit/_header.html:21 templates/spirit/admin/_side_menu.html:12
+#: templates/spirit/admin/dashboard.html:31
+#: templates/spirit/user/_profile.html:47 templates/spirit/user/menu.html:15
+msgid "Topics"
+msgstr ""
+
+#: templates/spirit/_header.html:22 templates/spirit/user/menu.html:16
+msgid "Unread topics"
+msgstr ""
+
+#: templates/spirit/_header.html:23
+#: templates/spirit/topic/private/detail.html:10
+#: templates/spirit/topic/private/list.html:5
+#: templates/spirit/user/menu.html:17
+msgid "Private topics"
+msgstr ""
+
+#: templates/spirit/_header.html:26
+#: templates/spirit/comment/flag/admin/detail.html:10
+#: templates/spirit/user/menu.html:20
+msgid "Admin"
+msgstr ""
+
+#: templates/spirit/_header.html:29 templates/spirit/user/auth/logout.html:5
+#: templates/spirit/user/auth/logout.html:15
+#: templates/spirit/user/menu.html:23
+msgid "Log out"
+msgstr ""
+
+#: templates/spirit/_header.html:42
+msgid "Log in"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:3
+msgid "Show menu"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:9
+#: templates/spirit/admin/dashboard.html:5
+#: templates/spirit/admin/dashboard.html:11
+msgid "Dashboard"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:10
+msgid "Basic settings"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:11
+#: templates/spirit/admin/dashboard.html:47
+msgid "Categories"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:13
+msgid "Users"
+msgstr ""
+
+#: templates/spirit/admin/_side_menu.html:14
+#: templates/spirit/admin/dashboard.html:43
+#: templates/spirit/comment/flag/admin/detail.html:11
+msgid "Flags"
+msgstr ""
+
+#: templates/spirit/admin/config_basic.html:5
+#: templates/spirit/admin/config_basic.html:11
+msgid "Basic Settings"
+msgstr ""
+
+#: templates/spirit/admin/config_basic.html:17
+#: templates/spirit/category/admin/create.html:15
+#: templates/spirit/category/admin/update.html:15
+#: templates/spirit/comment/flag/admin/detail.html:27
+#: templates/spirit/user/admin/edit.html:16
+#: templates/spirit/user/auth/password_reset_confirm.html:16
+#: templates/spirit/user/profile_update.html:28
+msgid "Save"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:14
+msgid "Software"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:17
+msgid "Installed"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:18
+msgid "Latest"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:22
+msgid "Statistics"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:27
+msgid "Members"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:35
+#: templates/spirit/user/_profile.html:46
+msgid "Comments"
+msgstr ""
+
+#: templates/spirit/admin/dashboard.html:39
+#: templates/spirit/user/_profile.html:48
+msgid "Likes"
+msgstr ""
+
+#: templates/spirit/category/admin/create.html:5
+#: templates/spirit/category/admin/create.html:9
+msgid "Add Category"
+msgstr ""
+
+#: templates/spirit/category/admin/list.html:5
+#: templates/spirit/category/admin/list.html:11
+msgid "Category list"
+msgstr ""
+
+#: templates/spirit/category/admin/list.html:13
+msgid "Create Category"
+msgstr ""
+
+#: templates/spirit/category/admin/list.html:29
+#: templates/spirit/category/admin/list.html:44
+#: templates/spirit/comment/_render_list.html:67
+#: templates/spirit/topic/detail.html:30 templates/spirit/topic/detail.html:32
+#: templates/spirit/topic/poll/_form.html:11
+#: templates/spirit/user/admin/_list.html:9
+msgid "edit"
+msgstr ""
+
+#: templates/spirit/category/admin/update.html:5
+#: templates/spirit/category/admin/update.html:9
+msgid "Update Category"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:6
+msgid "Bold"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:7
+msgid "Italic"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:8
+#: templates/spirit/user/admin/_tabs.html:4
+msgid "List"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:9
+msgid "URL"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:10
+msgid "Image"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:11
+msgid "Preview"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:33
+#, python-brace-format
+msgid "uploading {image_name}"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:36
+msgid "bolded text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:37
+msgid "italicised text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:38
+msgid "list item"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:39
+msgid "link text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:40
+msgid "link url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:41
+msgid "image text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:42
+msgid "image url"
+msgstr ""
+
+#: templates/spirit/comment/_form.html:17
+#: templates/spirit/comment/publish.html:18
+#: templates/spirit/comment/update.html:18
+#: templates/spirit/topic/poll/update.html:16
+#: templates/spirit/topic/private/publish.html:23
+#: templates/spirit/topic/publish.html:58
+msgid "Publish"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:47
+#: templates/spirit/comment/flag/admin/detail.html:54
+msgid "delete"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:50
+msgid "report"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:53
+msgid "share"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:57
+#: templates/spirit/comment/_render_list.html:139
+msgid "remove like"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:71
+msgid "quote"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:72
+msgid "reply"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:79
+#: templates/spirit/topic/poll/_form.html:16
+msgid "close"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:110
+msgid "This comment was deleted"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:118
+msgid "undelete"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/_list.html:9
+msgid "moderate"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/_tabs.html:4
+#: templates/spirit/topic/poll/close.html:20
+msgid "Open"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/_tabs.html:5
+#: templates/spirit/topic/admin/_tabs.html:5
+msgid "Closed"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/closed.html:5
+#: templates/spirit/comment/flag/admin/closed.html:11
+msgid "Closed flags"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/detail.html:5
+#: templates/spirit/comment/flag/admin/detail.html:14
+msgid "Flag"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/detail.html:18
+msgid "Moderated by"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/detail.html:30
+msgid "Comment flagged"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/detail.html:61
+msgid "Reporters"
+msgstr ""
+
+#: templates/spirit/comment/flag/admin/open.html:5
+#: templates/spirit/comment/flag/admin/open.html:11
+msgid "Open flags"
+msgstr ""
+
+#: templates/spirit/comment/flag/create.html:5
+#: templates/spirit/comment/flag/create.html:14
+msgid "Report"
+msgstr ""
+
+#: templates/spirit/comment/flag/create.html:9
+#, python-format
+msgid "Reporting %(username)s's comment"
+msgstr ""
+
+#: templates/spirit/comment/history/detail.html:5
+#: templates/spirit/comment/history/detail.html:11
+msgid "Comment history"
+msgstr ""
+
+#: templates/spirit/comment/like/create.html:5
+#: templates/spirit/comment/like/create.html:14
+msgid "Like"
+msgstr ""
+
+#: templates/spirit/comment/like/create.html:9
+#, python-format
+msgid "Like %(username)s's comment"
+msgstr ""
+
+#: templates/spirit/comment/like/delete.html:5
+#: templates/spirit/comment/like/delete.html:13
+msgid "Remove like"
+msgstr ""
+
+#: templates/spirit/comment/like/delete.html:9
+#, python-format
+msgid "Remove %(username)s's comment like"
+msgstr ""
+
+#: templates/spirit/comment/moderate.html:5
+#: templates/spirit/comment/moderate.html:9
+msgid "Moderate comment"
+msgstr ""
+
+#: templates/spirit/comment/moderate.html:14
+#: templates/spirit/topic/moderate.html:14
+msgid "Apply"
+msgstr ""
+
+#: templates/spirit/comment/publish.html:5
+msgid "Publish comment"
+msgstr ""
+
+#: templates/spirit/comment/publish.html:9
+msgid "Publishing comment on"
+msgstr ""
+
+#: templates/spirit/comment/update.html:5
+#: templates/spirit/comment/update.html:9
+msgid "Edit comment"
+msgstr ""
+
+#: templates/spirit/search/_form.html:6 templates/spirit/search/search.html:5
+#: templates/spirit/search/search.html:10
+#: templates/spirit/search/search.html:15
+msgid "Search"
+msgstr ""
+
+#: templates/spirit/search/search.html:19
+msgid "Results"
+msgstr ""
+
+#: templates/spirit/search/search.html:27
+msgid "There are no search results."
+msgstr ""
+
+#: templates/spirit/topic/_render_list.html:41
+#: templates/spirit/topic/private/created_list.html:18
+msgid "There are no topics here, yet"
+msgstr ""
+
+#: templates/spirit/topic/_top_bar.html:8
+#: templates/spirit/topic/_top_bar.html:19
+msgid "All Categories"
+msgstr ""
+
+#: templates/spirit/topic/_top_bar.html:17
+msgid "All Subcategories"
+msgstr ""
+
+#: templates/spirit/topic/_top_bar.html:27
+#: templates/spirit/topic/_top_bar.html:29
+msgid "Create Topic"
+msgstr ""
+
+#: templates/spirit/topic/active.html:5
+msgid "Latest active topics"
+msgstr ""
+
+#: templates/spirit/topic/admin/_tabs.html:4
+msgid "Deleted"
+msgstr ""
+
+#: templates/spirit/topic/admin/_tabs.html:6
+msgid "Pinned"
+msgstr ""
+
+#: templates/spirit/topic/admin/closed.html:5
+#: templates/spirit/topic/admin/closed.html:11
+msgid "Closed topics"
+msgstr ""
+
+#: templates/spirit/topic/admin/deleted.html:5
+msgid "Deleted Topics"
+msgstr ""
+
+#: templates/spirit/topic/admin/deleted.html:11
+msgid "Deleted topics"
+msgstr ""
+
+#: templates/spirit/topic/admin/pinned.html:5
+#: templates/spirit/topic/admin/pinned.html:11
+msgid "Pinned topics"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:10
+msgid "Main"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:42
+msgid "Select comments to move"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:45
+msgid "Undelete topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:47
+msgid "Delete topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:51
+msgid "Open topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:53
+msgid "Close topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:57
+msgid "Unpin topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:59
+msgid "Pin topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:63
+msgid "Unpin topic globally"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:65
+msgid "Pin topic globally"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:74
+msgid "Topic id"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:76
+msgid "Move"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:92
+msgid "Reply"
+msgstr ""
+
+#: templates/spirit/topic/moderate.html:5
+#: templates/spirit/topic/moderate.html:9
+msgid "Moderate topic"
+msgstr ""
+
+#: templates/spirit/topic/notification/_form.html:12
+msgid "Unnotify Me"
+msgstr ""
+
+#: templates/spirit/topic/notification/_form.html:14
+msgid "Notify Me"
+msgstr ""
+
+#: templates/spirit/topic/notification/_render_list.html:9
+#, python-format
+msgid ""
+"<a href=\"%(url_profile)s\">%(username)s</a> has commented on <a href="
+"\"%(url_topic)s\">%(topic_title)s</a>"
+msgstr ""
+
+#: templates/spirit/topic/notification/_render_list.html:11
+#, python-format
+msgid ""
+"<a href=\"%(url_profile)s\">%(username)s</a> has mention you on <a href="
+"\"%(url_topic)s\">%(topic_title)s</a>"
+msgstr ""
+
+#: templates/spirit/topic/notification/_render_list.html:21
+msgid "There are no notifications, yet"
+msgstr ""
+
+#: templates/spirit/topic/notification/list.html:5
+#: templates/spirit/topic/notification/list.html:9
+msgid "Notifications"
+msgstr ""
+
+#: templates/spirit/topic/notification/list_unread.html:5
+#: templates/spirit/topic/notification/list_unread.html:9
+msgid "Unread notifications"
+msgstr ""
+
+#: templates/spirit/topic/notification/list_unread.html:15
+msgid "There are no new notifications"
+msgstr ""
+
+#: templates/spirit/topic/notification/list_unread.html:22
+#: templates/spirit/topic/unread/list.html:15
+msgid "Next"
+msgstr ""
+
+#: templates/spirit/topic/poll/_form.html:10
+msgid "Vote"
+msgstr ""
+
+#: templates/spirit/topic/poll/_form.html:14
+msgid "open"
+msgstr ""
+
+#: templates/spirit/topic/poll/close.html:5
+msgid "Poll close or open"
+msgstr ""
+
+#: templates/spirit/topic/poll/close.html:11
+msgid "Are you sure you want to open this poll"
+msgstr ""
+
+#: templates/spirit/topic/poll/close.html:13
+msgid "Are you sure you want to close this poll"
+msgstr ""
+
+#: templates/spirit/topic/poll/close.html:20
+msgid "Close"
+msgstr ""
+
+#: templates/spirit/topic/poll/update.html:5
+#: templates/spirit/topic/poll/update.html:9
+msgid "Update poll"
+msgstr ""
+
+#: templates/spirit/topic/private/_invite_form.html:7
+msgid "Invite"
+msgstr ""
+
+#: templates/spirit/topic/private/_top_bar.html:6
+#: templates/spirit/topic/private/_top_bar.html:14
+msgid "Participating in"
+msgstr ""
+
+#: templates/spirit/topic/private/_top_bar.html:8
+#: templates/spirit/topic/private/_top_bar.html:13
+msgid "Left"
+msgstr ""
+
+#: templates/spirit/topic/private/_top_bar.html:20
+msgid "Create private topic"
+msgstr ""
+
+#: templates/spirit/topic/private/created_list.html:5
+msgid "Created private topics"
+msgstr ""
+
+#: templates/spirit/topic/private/created_list.html:15
+msgid "join"
+msgstr ""
+
+#: templates/spirit/topic/private/delete.html:5
+msgid "Remove user from private topic"
+msgstr ""
+
+#: templates/spirit/topic/private/delete.html:9
+#, python-format
+msgid "Removing %(username)s's from %(topic_title)s"
+msgstr ""
+
+#: templates/spirit/topic/private/delete.html:13
+msgid "Remove"
+msgstr ""
+
+#: templates/spirit/topic/private/detail.html:17
+msgid "Participants"
+msgstr ""
+
+#: templates/spirit/topic/private/detail.html:33
+msgid "Leave topic"
+msgstr ""
+
+#: templates/spirit/topic/private/join.html:5
+msgid "Join topic"
+msgstr ""
+
+#: templates/spirit/topic/private/join.html:10
+#, python-format
+msgid "Do you want to join %(topic_title)s?"
+msgstr ""
+
+#: templates/spirit/topic/private/join.html:18
+msgid "Join"
+msgstr ""
+
+#: templates/spirit/topic/private/publish.html:5
+msgid "Publish a private topic"
+msgstr ""
+
+#: templates/spirit/topic/private/publish.html:9
+msgid "Publish private topic"
+msgstr ""
+
+#: templates/spirit/topic/publish.html:5
+#: templates/spirit/topic/publish.html:28
+msgid "Publish topic"
+msgstr ""
+
+#: templates/spirit/topic/publish.html:38
+msgid "Poll"
+msgstr ""
+
+#: templates/spirit/topic/publish.html:41
+msgid "Add poll"
+msgstr ""
+
+#: templates/spirit/topic/unread/list.html:5
+#: templates/spirit/topic/unread/list.html:9
+msgid "Unread topics replies"
+msgstr ""
+
+#: templates/spirit/topic/update.html:5 templates/spirit/topic/update.html:9
+msgid "Update topic"
+msgstr ""
+
+#: templates/spirit/topic/update.html:15
+msgid "Update"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:12
+msgid "Joined at"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:16
+msgid "Seen"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:22
+msgid "Last IP"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:31
+#: templates/spirit/user/profile_update.html:5
+#: templates/spirit/user/profile_update.html:9
+msgid "Preferences"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:35
+msgid "Private Message"
+msgstr ""
+
+#: templates/spirit/user/_profile.html:41
+#: templates/spirit/user/admin/edit.html:5
+#: templates/spirit/user/admin/edit.html:9
+msgid "Edit user"
+msgstr ""
+
+#: templates/spirit/user/_render_comments_list.html:36
+msgid "There are no comments here, yet"
+msgstr ""
+
+#: templates/spirit/user/activation_email.html:2
+#, python-format
+msgid "You're receiving this email because you registered at %(site_name)s."
+msgstr ""
+
+#: templates/spirit/user/activation_email.html:4
+msgid "Please go to the following link to activate your account:"
+msgstr ""
+
+#: templates/spirit/user/activation_email.html:8
+#: templates/spirit/user/auth/password_reset_email.html:9
+#: templates/spirit/user/email_change_email.html:8
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: templates/spirit/user/admin/_tabs.html:5
+#: templates/spirit/user/admin/admins.html:5
+#: templates/spirit/user/admin/admins.html:11
+msgid "Admins"
+msgstr ""
+
+#: templates/spirit/user/admin/_tabs.html:6
+#: templates/spirit/user/admin/mods.html:5
+#: templates/spirit/user/admin/mods.html:11
+msgid "Mods"
+msgstr ""
+
+#: templates/spirit/user/admin/_tabs.html:7
+msgid "Unactive"
+msgstr ""
+
+#: templates/spirit/user/admin/list.html:5
+#: templates/spirit/user/admin/list.html:11
+msgid "User list"
+msgstr ""
+
+#: templates/spirit/user/admin/unactive.html:5
+#: templates/spirit/user/admin/unactive.html:11
+msgid "Unactive Users"
+msgstr ""
+
+#: templates/spirit/user/auth/activation_resend.html:5
+#: templates/spirit/user/auth/activation_resend.html:9
+#: templates/spirit/user/auth/login.html:23
+msgid "Resend activation email"
+msgstr ""
+
+#: templates/spirit/user/auth/activation_resend.html:16
+msgid "Resend email"
+msgstr ""
+
+#: templates/spirit/user/auth/login.html:5
+#: templates/spirit/user/auth/login.html:9
+#: templates/spirit/user/auth/login.html:16
+msgid "Login"
+msgstr ""
+
+#: templates/spirit/user/auth/login.html:21
+msgid "Create an account"
+msgstr ""
+
+#: templates/spirit/user/auth/login.html:22
+msgid "I don't know my password"
+msgstr ""
+
+#: templates/spirit/user/auth/logout.html:9
+msgid "Are you sure you want to log out?"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_complete.html:7
+#: templates/spirit/user/auth/password_reset_complete.html:11
+msgid "Password change successful"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_complete.html:13
+msgid "Continue to login"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_confirm.html:5
+msgid "Password reset confirmation"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_confirm.html:11
+msgid "Enter new password"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_confirm.html:21
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_confirm.html:23
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_done.html:5
+#: templates/spirit/user/auth/password_reset_done.html:9
+msgid "Password reset successful"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_done.html:11
+msgid ""
+"We've emailed you instructions for setting your password. You should be "
+"receiving them shortly."
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_email.html:11
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_form.html:5
+#: templates/spirit/user/auth/password_reset_form.html:9
+msgid "Password reset"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_form.html:15
+msgid "Reset my password"
+msgstr ""
+
+#: templates/spirit/user/auth/password_reset_subject.txt:2
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr ""
+
+#: templates/spirit/user/auth/register.html:5
+#: templates/spirit/user/auth/register.html:22
+#: templates/spirit/user/auth/register.html:28
+msgid "Register"
+msgstr ""
+
+#: templates/spirit/user/email_change_email.html:2
+#, python-format
+msgid ""
+"You're receiving this because you changed your user email at %(site_name)s."
+msgstr ""
+
+#: templates/spirit/user/email_change_email.html:4
+msgid "Please go to the following link to confirm your email change:"
+msgstr ""
+
+#: templates/spirit/user/menu.html:7
+msgid "User menu"
+msgstr ""
+
+#: templates/spirit/user/menu.html:11
+msgid "Menu"
+msgstr ""
+
+#: templates/spirit/user/notification_email.html:2
+#, python-format
+msgid "You have a new notification at %(site_name)s."
+msgstr ""
+
+#: templates/spirit/user/notification_email.html:4
+msgid "Please go to the following link to read the comment:"
+msgstr ""
+
+#: templates/spirit/user/notification_email.html:8
+msgid ""
+"If you don't want to keep receiving notifications, you can deactivate them "
+"on your profile preferences."
+msgstr ""
+
+#: templates/spirit/user/profile_email_change.html:15
+msgid "Change my email"
+msgstr ""
+
+#: templates/spirit/user/profile_password_change.html:5
+#: templates/spirit/user/profile_password_change.html:9
+msgid "Password change"
+msgstr ""
+
+#: templates/spirit/user/profile_password_change.html:15
+msgid "Change my password"
+msgstr ""
+
+#: templates/spirit/user/profile_update.html:16
+msgid "Change password"
+msgstr ""
+
+#: templates/spirit/user/profile_update.html:18
+msgid "Avatar"
+msgstr ""
+
+#: templates/spirit/user/profile_update.html:19
+msgid "Change avatar"
+msgstr ""
+
+#: templates/spirit/user/profile_update.html:20
+msgid "Go to gravatar.com and use your current email to change it"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:4
+#, python-format
+msgid "Page %(number)s of %(num_pages)s"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:8
+msgid "Last"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:10
+msgid "First"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_yt_paginator.html:5
+msgid "Page 1 of 1"
+msgstr ""
+
+#: utils/markdown/utils/quote.py:19
+#, python-format
+msgid "@%(username)s said:"
+msgstr ""
+
+#: utils/ratelimit/decorators.py:25
+#, python-format
+msgid "Too many submissions, wait %(time)s."
+msgstr ""
+
+#: utils/tags/time.py:33
+msgid "now"
+msgstr ""
+
+#: utils/tags/time.py:37
+#, python-format
+msgid "%(count)ss"
+msgstr ""
+
+#: utils/tags/time.py:41
+#, python-format
+msgid "%(count)sm"
+msgstr ""
+
+#: utils/tags/time.py:44
+#, python-format
+msgid "%(count)sh"
+msgstr ""
+
+#: utils/timezone.py:9
+msgid "(GMT -12:00) Eniwetok, Kwajalein"
+msgstr ""
+
+#: utils/timezone.py:10
+msgid "(GMT -11:00) Midway Island, Samoa"
+msgstr ""
+
+#: utils/timezone.py:11
+msgid "(GMT -10:00) Hawaii"
+msgstr ""
+
+#: utils/timezone.py:12
+msgid "(GMT -9:30) Marquesas Islands"
+msgstr ""
+
+#: utils/timezone.py:13
+msgid "(GMT -9:00) Alaska"
+msgstr ""
+
+#: utils/timezone.py:14
+msgid "(GMT -8:00) Pacific Time (US & Canada)"
+msgstr ""
+
+#: utils/timezone.py:15
+msgid "(GMT -7:00) Mountain Time (US & Canada)"
+msgstr ""
+
+#: utils/timezone.py:16
+msgid "(GMT -6:00) Central Time (US & Canada), Mexico City"
+msgstr ""
+
+#: utils/timezone.py:17
+msgid "(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima"
+msgstr ""
+
+#: utils/timezone.py:18
+msgid "(GMT -4:30) Venezuela"
+msgstr ""
+
+#: utils/timezone.py:19
+msgid "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
+msgstr ""
+
+#: utils/timezone.py:20
+msgid "(GMT -3:00) Brazil, Buenos Aires, Georgetown"
+msgstr ""
+
+#: utils/timezone.py:21
+msgid "(GMT -2:00) Mid-Atlantic"
+msgstr ""
+
+#: utils/timezone.py:22
+msgid "(GMT -1:00) Azores, Cape Verde Islands"
+msgstr ""
+
+#: utils/timezone.py:23
+msgid "(GMT) Western Europe Time, London, Lisbon, Casablanca"
+msgstr ""
+
+#: utils/timezone.py:24
+msgid "(GMT +1:00) Brussels, Copenhagen, Madrid, Paris"
+msgstr ""
+
+#: utils/timezone.py:25
+msgid "(GMT +2:00) Kaliningrad, South Africa"
+msgstr ""
+
+#: utils/timezone.py:26
+msgid "(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg"
+msgstr ""
+
+#: utils/timezone.py:27
+msgid "(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi"
+msgstr ""
+
+#: utils/timezone.py:28
+msgid "(GMT +4:30) Afghanistan"
+msgstr ""
+
+#: utils/timezone.py:29
+msgid "(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent"
+msgstr ""
+
+#: utils/timezone.py:30
+msgid "(GMT +5:30) India, Sri Lanka"
+msgstr ""
+
+#: utils/timezone.py:31
+msgid "(GMT +5:45) Nepal"
+msgstr ""
+
+#: utils/timezone.py:32
+msgid "(GMT +6:00) Almaty, Dhaka, Colombo"
+msgstr ""
+
+#: utils/timezone.py:33
+msgid "(GMT +6:30) Cocos Islands, Myanmar"
+msgstr ""
+
+#: utils/timezone.py:34
+msgid "(GMT +7:00) Bangkok, Hanoi, Jakarta"
+msgstr ""
+
+#: utils/timezone.py:35
+msgid "(GMT +8:00) Beijing, Perth, Singapore, Hong Kong"
+msgstr ""
+
+#: utils/timezone.py:36
+msgid "(GMT +8:45) Australia (Eucla)"
+msgstr ""
+
+#: utils/timezone.py:37
+msgid "(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+msgstr ""
+
+#: utils/timezone.py:38
+msgid "(GMT +9:30) Australia (Northern Territory)"
+msgstr ""
+
+#: utils/timezone.py:39
+msgid "(GMT +10:00) Eastern Australia, Guam, Vladivostok"
+msgstr ""
+
+#: utils/timezone.py:40
+msgid "(GMT +11:00) Magadan, Solomon Islands, New Caledonia"
+msgstr ""
+
+#: utils/timezone.py:41
+msgid "(GMT +11:30) Norfolk Island"
+msgstr ""
+
+#: utils/timezone.py:42
+msgid "(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"
+msgstr ""
